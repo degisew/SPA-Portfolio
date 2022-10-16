@@ -1,20 +1,39 @@
 .mainDiv {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
-.title {
-  font-size: 3rem;
-  font-weight: 700;
-  width: fit-content;
-  padding-left: 20px;
-  border-bottom: 2px solid white;
+.photoDetailDiv {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  column-gap: 5rem;
+  margin: 1rem auto;
 }
-
 .myDetail {
-    text-align: justify;
+  text-align: justify;
+  width: 50%;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.photo {
+  
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: 0;
+  max-width: none;
+  padding: 0;
+  right: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+.photo img {
+  border: 1px solid #2DD4BF;
+  border-radius: 20px;
+  margin-top: 2rem;
+  height: 20rem;
 }

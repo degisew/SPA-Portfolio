@@ -9,10 +9,10 @@
   margin: 3rem auto;
 }
 .hi {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-            Liberation Mono, Courier New, monospace;
   font-size: 20px;
   color: #2dd4bf;
+font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        Liberation Mono, Courier New, monospace;
 }
 
 .nameJobDiv {
@@ -31,6 +31,6 @@
   justify-content: center;
 color: rgb(162, 162, 174);
   width: 60%;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
+font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        Liberation Mono, Courier New, monospace;
 }
