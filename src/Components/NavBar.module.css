@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 70px;
+}
+
+.logoContainer {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+  font-style: italic;
+  color: #2dd4bf;
+}
+
+.logoContainer a {
+    text-decoration-line: none;
+    color: #2dd4bf;
+}
+
+#navBar {
+  display: flex;
+  align-self: flex-end;
+  column-gap: 25px;
+}
+
+#navBar a {
+  color: #fff;
+
+  font-size: 20px;
+  text-decoration-line: none;
+}
+
+#resume {
+  text-align: center;
+  padding: 5px;
+  margin-left: 50px;
+  /* border: 1px solid; */
+  outline: #2dd4bf solid 3px;
+}
