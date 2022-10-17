@@ -1,36 +1,58 @@
 #home {
-    min-height: 550px;
-    padding-bottom: 9rem;
+  min-height: 550px;
 }
+
 .mainDiv {
   display: flex;
   flex-direction: column;
-  width: 60%;
-  margin: 3rem auto;
+  margin: 5rem 2rem;
 }
+
 .hi {
   font-size: 20px;
   color: #2dd4bf;
-font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-        Liberation Mono, Courier New, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
 }
 
 .nameJobDiv {
-    
-  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
+.name {
+  font-size: 30px;
+}
+
 .job {
-        color: rgb(162, 162, 174);
+  font-size: 24px;
+  color: rgb(162, 162, 174);
 }
 
 .description {
-  display: flex;
-  justify-content: center;
-color: rgb(162, 162, 174);
-  width: 60%;
-font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-        Liberation Mono, Courier New, monospace;
+  font-size: 13px;
+  /* text-align: justify; */
+  color: rgb(162, 162, 174);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+/* Desktop Breakpoint */
+@media (min-width: 768px) {
+  .mainDiv {
+    width: 60%;
+    margin: 3rem auto;
+  }
+.name {
+  font-size: 72px;
+}
+
+.job {
+  font-size: 48px;
+  color: rgb(162, 162, 174);
+}
+  .description {
+    font-size: 18px;
+    width: 60%;
+  }
 }

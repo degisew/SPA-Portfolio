@@ -4,25 +4,21 @@
 }
 
 .photoDetailDiv {
-  display: flex;
-  width: 55%;
-  justify-content: space-between;
-  column-gap: 5rem;
-  margin: 1rem auto;
+  display: block;
 }
+
 .myDetail {
   text-align: justify;
-  width: 50%;
+  font-size: 14px;
+  padding: 0 20px;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
     Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 .photo {
-  
   bottom: 0;
   left: 0;
-  width: 50%;
   margin: 0;
   max-width: none;
   padding: 0;
@@ -32,8 +28,42 @@
 }
 
 .photo img {
-  border: 1px solid #2DD4BF;
+  display: flex;
+  margin: 20px auto;
+  border: 1px solid #2dd4bf;
   border-radius: 20px;
-  margin-top: 2rem;
   height: 20rem;
+}
+
+@media (min-width: 768px) {
+  .photoDetailDiv {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    column-gap: 5rem;
+    margin: 1rem auto;
+  }
+
+ .myDetail {
+   font-size: 18px;
+
+ }
+  .photo {
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    right: 0;
+    top: 0;
+    object-fit: cover;
+  }
+
+  .photo img {
+    border: 1px solid #2dd4bf;
+    border-radius: 20px;
+    margin-top: 2rem;
+    height: 20rem;
+  }
 }
