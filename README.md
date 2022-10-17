@@ -3,7 +3,7 @@ This is a personal portfolio website built with ReactJS.
 
 ## Built With
 - React
-- SCSS
+- CSS
 ## Author
 👤 **Degisew**
 - GitHub: [degisew](https://github.com/degisew)
