@@ -9,15 +9,15 @@ const Home = () => {
         </div>
         <div className={selectors.nameJobDiv}>
           <div className={selectors.name}>
-            <h1>Degisew Mengist</h1>
+            Degisew Mengist
           </div>
           <div className={selectors.job}>
-            <h1>I build things for the web!</h1>
+            I build things for the web!
           </div>
         </div>
         <div className={selectors.description}>
           <p>
-            I am a Front-end web developer and open-source enthusiast with a
+            I am a Front-end developer and open-source enthusiast with a
             love for clean code and accessible design. Pair-programming and
             remote work aficionado. Fluent in multiple languages, frameworks,
             and technologies, and capable of ramping up quickly and efficiently.    

@@ -1,4 +1,5 @@
 import React from 'react'
+import { SlMenu } from "react-icons/sl";
 import selectors from "./NavBar.module.css";
 const NavBar = () => {
   return (
@@ -8,6 +9,11 @@ const NavBar = () => {
           <a href="#home">
             <h1>Degisew</h1>
           </a>
+        </div>
+        <div className={selectors.menuBtnDiv}>
+          <button className={selectors.MenuBtn}>
+            <SlMenu />
+          </button>
         </div>
         <div className={selectors.navContainer}>
           <nav id={selectors.navBar}>
