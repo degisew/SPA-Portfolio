@@ -1,0 +1,47 @@
+.subTitle {
+  text-align: center;
+  color: #2dd4bf;
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+
+.skillsContainer {
+  display: grid;
+  margin: 20px auto;
+  grid-template-columns: 50% 50%;
+}
+
+.skills {
+  color: rgb(203, 205, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #112340;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 5px;
+  min-height: 50px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+.skills svg {
+  fill: #2dd4bf;
+  margin-right: 3px;
+}
+
+@media (min-width: 768px) {
+  .skillsContainer {
+    display: grid;
+    width: 70%;
+    margin: 20px auto;
+    grid-template-columns: 30% 30%;
+  }
+
+  .subTitle {
+      text-align:center;
+      color: #2dd4bf;
+      text-decoration: underline;
+      font-family: "Poppins", sans-serif;
+  }
+}
