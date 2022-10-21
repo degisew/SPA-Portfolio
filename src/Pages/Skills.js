@@ -13,7 +13,7 @@ const Skills = () => {
       <div className={selectors.skillsContainer}>
         {skills.map((skill) => {
           return (
-            <div className={selectors.skills}>
+            <div className={selectors.skills} key={skill}>
               <FaCheckCircle />
               {skill}
             </div>
@@ -24,7 +24,7 @@ const Skills = () => {
       <div className={selectors.skillsContainer}>
         {ToolsAndMethods.map((tool) => {
           return (
-            <div className={selectors.skills}>
+            <div className={selectors.skills} key={tool}>
               <FaCheckCircle />
               {tool}
             </div>
@@ -35,7 +35,7 @@ const Skills = () => {
       <div className={selectors.skillsContainer}>
         {professional.map((profession) => {
           return (
-            <div className={selectors.skills}>
+            <div className={selectors.skills} key={profession}>
               <FaCheckCircle />
               {profession}
             </div>

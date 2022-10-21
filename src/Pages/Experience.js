@@ -12,7 +12,7 @@ const Experience = () => {
         <div className={selectors.experiencesDiv}>
           {experiences.map((experience) => {
             return (
-              <div className={selectors.experience}>
+              <div className={selectors.experience} key={experience.id}>
                 <h2>{experience.company}</h2>
                 <h3>{experience.role}</h3>
                 <h4>{experience.duration}</h4>

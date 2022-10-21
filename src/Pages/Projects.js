@@ -16,7 +16,7 @@ const Projects = () => {
       <div className={selectors.mainContainer}> 
           {projects.map((project) => {
             return (
-              <div className={selectors.project}>
+              <div className={selectors.project} key={project.id}>
                 <div className={selectors.icons}>
                   <div className={selectors.folderIcon}>
                     <FiFolder />
@@ -40,7 +40,7 @@ const Projects = () => {
                 </div>
                 <div className={selectors.builtWith}>
                   {project.builtWith.map((tech) => {
-                    return <div className={selectors.tech}>{tech}</div>;
+                    return <div className={selectors.tech} key={tech}>{tech}</div>;
                   })}
                 </div>
               </div>
