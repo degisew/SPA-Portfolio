@@ -8,6 +8,57 @@
   margin: 5rem 2rem;
 }
 
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  background-color: #112340;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  row-gap: 20px;
+}
+
+.mobileMenu button {
+  display: flex;
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 23px;
+  width: fit-content;
+  cursor: pointer;
+  float: left;
+}
+
+.mobileMenu button span {
+  color: #2dd4bf;
+}
+
+.mobileMenuItems {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  cursor: pointer;
+}
+
+.mobileMenuItems a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration-line: none;
+}
+
+#resume {
+  width: 30%;
+  text-align: center;
+  padding: 5px 10px;
+  margin-left: 50px;
+  border-radius: 5px;
+  outline: #2dd4bf solid 3px;
+}
+
 .hi {
   font-size: 20px;
   color: #2dd4bf;
@@ -45,6 +96,10 @@
   }
 .name {
   font-size: 72px;
+}
+
+.popup {
+  display: none;
 }
 
 .job {
