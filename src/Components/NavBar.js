@@ -1,7 +1,11 @@
 import React from 'react'
 import { SlMenu } from "react-icons/sl";
 import selectors from "./NavBar.module.css";
-const NavBar = () => {
+const NavBar = (props) => {
+  
+  const openMenuHandler = (e) => {
+    props.openMenuHandler(e);
+  };
   return (
     <div>
       <header className={selectors.header}>
@@ -11,7 +15,7 @@ const NavBar = () => {
           </a>
         </div>
         <div className={selectors.menuBtnDiv}>
-          <button className={selectors.MenuBtn}>
+          <button className={selectors.MenuBtn} onClick={openMenuHandler}>
             <SlMenu />
           </button>
         </div>
