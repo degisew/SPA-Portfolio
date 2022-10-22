@@ -11,7 +11,7 @@ const skills = [
     "Git",
     "GitHub",
     "Netlify",
-    "Mobile/Responsive development",
+    "Responsive development",
     "RSpec",
     "TDD",
     "VScode",
@@ -28,7 +28,7 @@ const experiences = [
     {
         id: 1,
         company: 'Bahir Dar University',
-        role: 'Assistant',
+        role: 'Assistant Lecturer',
         duration: 'Oct, 2021 - present',
     },
     {
@@ -36,7 +36,7 @@ const experiences = [
         company: 'Microverse',
         role: 'Mentor',
         duration: 'June, 2022 - present',
-    },
+    }
 ];
 
 const projects = [
@@ -81,6 +81,7 @@ const projects = [
     title: "To-Do List",
     builtWith: ["React", "CSS3"],
     github: "https://github.com/degisew/React-To-Do-List-App",
+    live: " ",
     description:
       "A To-Do List app built with React and CSS that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete and remove the selected item.",
   },

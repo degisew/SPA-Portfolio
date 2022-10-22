@@ -4,7 +4,6 @@
   align-items: center;
   min-height: 70px;
   padding: 10px;
-  border: 1px solid red;
 }
 
 .logoContainer {
@@ -18,14 +17,15 @@
   text-decoration-line: none;
   color: #2dd4bf;
 }
+
 #navBar {
   display: none;
 }
 
 .menuBtnDiv {
-  border: #2dd4bf solid;
+  border: 1px #2dd4bf solid;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 6px;
   min-width: 40px;
   cursor: pointer;
 }
@@ -35,7 +35,6 @@
   border: none;
   background-color: inherit;
   cursor: pointer;
-  
 }
 
 .MenuBtn svg {
@@ -52,17 +51,45 @@
 
   #navBar a {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration-line: none;
   }
 
   #resume {
     padding: 5px 10px;
-    margin-left: 50px;
+    margin-left: 20px;
     border-radius: 5px;
     outline: #2dd4bf solid 3px;
   }
   .menuBtnDiv {
     display: none;
+  }
+}
+/* Laptops Break Point */
+@media (min-width: 1024px) {
+  #navBar a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration-line: none;
+  }
+
+  .logoContainer a {
+    text-decoration-line: none;
+    color: #2dd4bf;
+    font-size: 20px;
+  }
+}
+/* Normal Desktop break point */
+@media (min-width: 1300px) {
+  #navBar a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration-line: none;
+  }
+
+  .logoContainer a {
+    text-decoration-line: none;
+    color: #2dd4bf;
+    font-size: 24px;
   }
 }

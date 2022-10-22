@@ -8,7 +8,7 @@ const Home = (props) => {
   if (props.menu) {
     {
       mobileMenu = (
-        <div className={selectors.mobileMenu}>
+        <div className={selectors.mobileMenu} >
           <button onClick={closeMenuHandler}>
             <span>X</span>
           </button>

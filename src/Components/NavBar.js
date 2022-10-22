@@ -14,11 +14,7 @@ const NavBar = (props) => {
             <h1>Degisew</h1>
           </a>
         </div>
-        <div className={selectors.menuBtnDiv}>
-          <button className={selectors.MenuBtn} onClick={openMenuHandler}>
-            <SlMenu />
-          </button>
-        </div>
+
         <div className={selectors.navContainer}>
           <nav id={selectors.navBar}>
             <a href="#about">About Me</a>
@@ -32,6 +28,11 @@ const NavBar = (props) => {
               Resume
             </a>
           </nav>
+        </div>
+        <div className={selectors.menuBtnDiv}>
+          <button className={selectors.MenuBtn} onClick={openMenuHandler}>
+            <SlMenu />
+          </button>
         </div>
       </header>
     </div>
