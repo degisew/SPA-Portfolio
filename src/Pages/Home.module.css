@@ -1,5 +1,5 @@
 #home {
-  min-height: 550px;
+  min-height: 450px;
 }
 
 .mainDiv {
@@ -9,13 +9,15 @@
 }
 
 .mobileMenu {
+  overflow-x: hidden;
+  position: fixed;
+  transition: 0.5s;
   display: flex;
   flex-direction: column;
   width: 70%;
   height: 100%;
   background-color: #112340;
   float: right;
-  position: absolute;
   top: 0;
   right: 0;
   padding: 15px;
@@ -88,26 +90,89 @@
     Liberation Mono, Courier New, monospace;
 }
 
-/* Desktop Breakpoint */
+/* Tablet Breakpoint */
 @media (min-width: 768px) {
   .mainDiv {
-    width: 60%;
+    width: 90%;
     margin: 3rem auto;
   }
-.name {
-  font-size: 72px;
+  .name {
+    font-size: 50px;
+  }
+
+  .popup {
+    display: none;
+  }
+
+  .job {
+    font-size: 48px;
+    color: rgb(162, 162, 174);
+  }
+  .description {
+    font-size: 17px;
+    width: 80%;
+  }
+}
+@media (min-width: 1024px) {
+  .mainDiv {
+    width: 70%;
+    margin: 3rem auto;
+  }
+
+.hi {
+  font-size: 24px;
+  color: #2dd4bf;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
 }
 
-.popup {
-  display: none;
-}
+  .name {
+    font-size: 64px;
+  }
 
-.job {
-  font-size: 48px;
-  color: rgb(162, 162, 174);
-}
+  .popup {
+    display: none;
+  }
+
+  .job {
+    font-size: 55px;
+    color: rgb(162, 162, 174);
+  }
   .description {
     font-size: 18px;
-    width: 60%;
+    width: 80%;
+  }
+}
+/* Normal Desktop break point */
+@media (min-width: 1300px) {
+  #home {
+      min-height: 500px;
+    }
+  .mainDiv {
+    width: 70%;
+    margin: 3rem auto;
+  }
+  .name {
+    font-size: 72px;
+  }
+
+.hi {
+  font-size: 28px;
+  color: #2dd4bf;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    Liberation Mono, Courier New, monospace;
+}
+
+  .popup {
+    display: none;
+  }
+
+  .job {
+    font-size: 64px;
+    color: rgb(162, 162, 174);
+  }
+  .description {
+    font-size: 22px;
+    width: 80%;
   }
 }

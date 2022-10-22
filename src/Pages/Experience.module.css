@@ -11,6 +11,24 @@
     color: #2dd4bf;
 }
 
+@media(min-width:568px) {
+.experiencesDiv {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 90%;
+    margin: 10px 10px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 240px;
+   min-height: 200px ;
+
+}
+}
 @media(min-width:768px) {
 .experiencesDiv {
     display: flex;

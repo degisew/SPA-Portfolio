@@ -15,7 +15,7 @@
 }
 
 .folderIcon {
-    color: #2dd4bf;
+  color: #2dd4bf;
 }
 
 .linkSeeDiv {
@@ -25,8 +25,8 @@
 }
 
 .linkSeeDiv a {
-    color: #fff;
-    cursor: pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
 .title {
@@ -43,12 +43,15 @@
 }
 
 .builtWith {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  column-gap: 10px;
+
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding-top: 20px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
 }
+
 
 .tech {
   color: rgb(203, 205, 208);
@@ -58,21 +61,52 @@
   background-color: #112340;
   border: 1px solid #2dd4bf;
   border-radius: 8px;
-  margin-top: 10px;
   padding: 10px;
   min-height: 20px;
   font-size: 12px;
   font-family: "Poppins", sans-serif;
 }
 
+@media (min-width: 375px) {
+  .builtWith {
+    display: flex;
+    /* width: 100%; */
+    justify-content: center;
+    column-gap: 10px;
+    padding-top: 20px;
+  }
+}
+
 @media (min-width: 768px) {
-    .mainContainer {
-            color: rgb(203, 205, 208);
-            display: grid;
-            width: 80%;
-            margin: 20px auto;
-            
-            text-align: center;
-            grid-template-columns: 33.33% 33.33% 33.33%;
-        }
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 95%;
+    color: rgb(203, 205, 208);
+    margin: auto auto;
+    text-align: center;
+  }
+}
+/* Normal Desktop Breakpoint */
+@media (min-width: 1300px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    width: 95%;
+    color: rgb(203, 205, 208);
+    margin: auto auto;
+    text-align: center;
+  }
+.title {
+  text-align: center;
+  font-size: 20px;
+}
+     .description {
+       text-align: justify;
+       font-size: 14px;
+       padding: 0 20px;
+       font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+         Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+         Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+     }
 }

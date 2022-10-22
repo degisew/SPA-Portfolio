@@ -38,21 +38,23 @@
 @media (min-width: 768px) {
   .photoDetailDiv {
     display: flex;
-    width: 55%;
     justify-content: space-between;
-    column-gap: 5rem;
+    column-gap: 3rem;
+    padding: 10px;
     margin: 1rem auto;
   }
 
  .myDetail {
-   font-size: 18px;
+   font-size: 14px;
 
  }
   .photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     left: 0;
     width: 50%;
-    margin: 0;
     max-width: none;
     padding: 0;
     right: 0;
@@ -63,7 +65,28 @@
   .photo img {
     border: 1px solid #2dd4bf;
     border-radius: 20px;
-    margin-top: 2rem;
     height: 20rem;
   }
+}
+
+@media (min-width: 1024px) {
+  .myDetail {
+      font-size: 18px;
+      width: 60%;
+  
+    }
+}
+/* Normal Desktop Breakpoint */
+@media (min-width: 1300px) {
+  .myDetail {
+      font-size: 20px;
+      width: 60%;
+  
+    }
+
+         .photo img {
+           border: 1px solid #2dd4bf;
+           border-radius: 20px;
+           height:25rem;
+         }
 }
