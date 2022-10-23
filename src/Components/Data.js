@@ -1,42 +1,42 @@
 const skills = [
-    "React/Redux",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SCSS",
-    "Ruby",
-    "Ruby on Rails",
-  ];
-  const ToolsAndMethods = [
-    "Git",
-    "GitHub",
-    "Netlify",
-    "Responsive development",
-    "RSpec",
-    "TDD",
-    "VScode",
-    "Chrome Dev Tools",
-  ];
-  const professional= [
-    "Remote Pair programming",
-    "TeamWork",
-    "Mentoring",
-    "Communication Skills",
-  ];
+  "React/Redux",
+  "JavaScript",
+  "HTML5",
+  "CSS3",
+  "SCSS",
+  "Ruby",
+  "Ruby on Rails",
+];
+const ToolsAndMethods = [
+  "Git",
+  "GitHub",
+  "Netlify",
+  "Responsive development",
+  "RSpec",
+  "TDD",
+  "VScode",
+  "Chrome Dev Tools",
+];
+const professional = [
+  "Remote Pair programming",
+  "TeamWork",
+  "Mentoring",
+  "Communication Skills",
+];
 
 const experiences = [
-    {
-        id: 1,
-        company: 'Bahir Dar University',
-        role: 'Assistant Lecturer',
-        duration: 'Oct, 2021 - present',
-    },
-    {
-        id: 2,
-        company: 'Microverse',
-        role: 'Mentor',
-        duration: 'June, 2022 - present',
-    }
+  {
+    id: 1,
+    company: "Bahir Dar University",
+    role: "Assistant Lecturer",
+    duration: "Oct, 2021 - present",
+  },
+  {
+    id: 2,
+    company: "Microverse",
+    role: "Mentor",
+    duration: "June, 2022 - present",
+  },
 ];
 
 const projects = [
@@ -45,7 +45,7 @@ const projects = [
     title: "Meetup",
     builtWith: ["React", "CSS3", "Firebase"],
     github: "https://github.com/degisew/meetup",
-    live: "",
+    live: "https://degisew-meetup.netlify.app/",
     description:
       "Meetup is a simple website built with react, css, and firebase that allows the user to see all the recent meetups, to add meetups, and select favorite meetup.",
   },
@@ -63,7 +63,7 @@ const projects = [
     title: "Math Magicians",
     builtWith: ["React", "SCSS"],
     github: "https://github.com/degisew/Math-Magicians-React-App",
-    live: "https://merry-mermaid-719de4.netlify.app/",
+    live: "https://degisew-calculator-app.netlify.app/",
     description:
       "'Math magicians' is a website for all fans of mathematics. It is a Single Page App (SPA) built with React that allows users to: make simple calculations and read a random math-related quote.",
   },
@@ -81,7 +81,7 @@ const projects = [
     title: "To-Do List",
     builtWith: ["React", "CSS3"],
     github: "https://github.com/degisew/React-To-Do-List-App",
-    live: " ",
+    live: "#",
     description:
       "A To-Do List app built with React and CSS that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete and remove the selected item.",
   },
@@ -99,10 +99,18 @@ const projects = [
 const testimonals = [];
 
 const contact = {
-    address: 'Bahir Dar, Ethiopia',
-    Phone: '+251953059021',
-    postalCode: 'Postal code: 6000',
-    email: 'degisew.mengist21@gmail.com'
-}
+  address: "Bahir Dar, Ethiopia",
+  Phone: "+251953059021",
+  postalCode: "Postal code: 6000",
+  email: "degisew.mengist21@gmail.com",
+};
 
-export { skills, ToolsAndMethods, professional, experiences, projects, testimonals, contact};
+export {
+  skills,
+  ToolsAndMethods,
+  professional,
+  experiences,
+  projects,
+  testimonals,
+  contact,
+};
