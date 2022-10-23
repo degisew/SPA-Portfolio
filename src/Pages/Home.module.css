@@ -92,21 +92,21 @@
 
 @media (min-width: 568px) {
   .mainDiv {
-      width: 70%;
-      margin: 3rem auto;
-    }
-  
-    .name {
-      font-size: 38px;
-    }
- .job {
-   font-size: 30px;
-   color: rgb(162, 162, 174);
- }
+    width: 70%;
+    margin: 3rem auto;
+  }
 
- .description {
-   font-size: 16px;
- }
+  .name {
+    font-size: 38px;
+  }
+  .job {
+    font-size: 30px;
+    color: rgb(162, 162, 174);
+  }
+
+  .description {
+    font-size: 16px;
+  }
 }
 /* Tablet Breakpoint */
 @media (min-width: 768px) {
@@ -137,12 +137,12 @@
     margin: 3rem auto;
   }
 
-.hi {
-  font-size: 24px;
-  color: #2dd4bf;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
-}
+  .hi {
+    font-size: 24px;
+    color: #2dd4bf;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      Liberation Mono, Courier New, monospace;
+  }
 
   .name {
     font-size: 64px;
@@ -164,8 +164,8 @@
 /* Normal Desktop break point */
 @media (min-width: 1300px) {
   #home {
-      min-height: 500px;
-    }
+    min-height: 500px;
+  }
   .mainDiv {
     width: 70%;
     margin: 3rem auto;
@@ -174,12 +174,12 @@
     font-size: 72px;
   }
 
-.hi {
-  font-size: 28px;
-  color: #2dd4bf;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
-}
+  .hi {
+    font-size: 28px;
+    color: #2dd4bf;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      Liberation Mono, Courier New, monospace;
+  }
 
   .popup {
     display: none;
@@ -190,7 +190,7 @@
     color: rgb(162, 162, 174);
   }
   .description {
-    font-size: 22px;
+    font-size: 20px;
     width: 80%;
   }
 }
