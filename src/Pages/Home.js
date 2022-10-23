@@ -7,7 +7,7 @@ const Home = (props) => {
   let mobileMenu;
   if (props.menu) {
     {
-      mobileMenu = (
+      mobileMenu = 
         <div className={selectors.mobileMenu} >
           <button onClick={closeMenuHandler}>
             <span>X</span>
@@ -33,8 +33,8 @@ const Home = (props) => {
               Resume
             </a>
           </div>
-        </div>
-      );
+        </div>;
+      
     }
   }
   return (

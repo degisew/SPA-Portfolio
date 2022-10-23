@@ -40,7 +40,7 @@ const AboutMe = () => {
           <div className={selectors.photo}>
             <img
               src={photo}
-              alt="my-photo"
+              alt="myPhoto"
               />
               </div>
           </div>

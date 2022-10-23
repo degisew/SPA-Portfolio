@@ -7,7 +7,6 @@ import {
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
- import { FaLinkedinIn } from "react-icons/fa";
 import { ImMail4 } from "react-icons/im";
 const ContactMe = () => {
   return (
