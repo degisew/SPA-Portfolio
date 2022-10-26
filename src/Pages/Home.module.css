@@ -122,6 +122,10 @@
     display: none;
   }
 
+.mobileMenu {
+  display: none;
+}
+
   .job {
     font-size: 48px;
     color: rgb(162, 162, 174);

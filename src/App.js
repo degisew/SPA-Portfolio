@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
     setShowMenu(!showMenu);
   };
-  const closeMenuHandler = (e) => {
+  const closeMenuHandler = () => {
     setShowMenu(false);
   };
 
