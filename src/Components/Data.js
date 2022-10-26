@@ -69,6 +69,15 @@ const projects = [
   },
   {
     id: 4,
+    title: "LeaderBoard API",
+    builtWith: ["HTML5", "SCSS", "JavaScript", "Leaderboard API"],
+    github: "https://github.com/degisew/Leaderboard-API",
+    live: "https://degisew.github.io/Leaderboard-API/dist/",
+    description:
+      "This is a website built with HTML5, SCSS, modern JavaScript and WebPack bundler that displays scores submitted by different players. It also allows you to submit your score and all data is preserved on the external Leaderboard API service.",
+  },
+  {
+    id: 5,
     title: "Awesome Books",
     builtWith: ["HTML5", "JavaScript", "CSS3"],
     github: "https://github.com/degisew/awesome-books",
@@ -77,22 +86,13 @@ const projects = [
       "A website developed with html, CSS and JavaScript that adds and removes awesome books dynamically. one of the best feature is that, all the data are stored in a browser local storage.",
   },
   {
-    id: 5,
+    id: 6,
     title: "To-Do List",
     builtWith: ["React", "CSS3"],
     github: "https://github.com/degisew/React-To-Do-List-App",
     live: "#",
     description:
       "A To-Do List app built with React and CSS that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete and remove the selected item.",
-  },
-  {
-    id: 6,
-    title: "LeaderBoard API",
-    builtWith: ["HTML5", "SCSS", "JavaScript", "Leaderboard API"],
-    github: "https://github.com/degisew/Leaderboard-API",
-    live: "https://degisew.github.io/Leaderboard-API/dist/",
-    description:
-      "This is a website built with HTML5, SCSS, modern JavaScript and WebPack bundler that displays scores submitted by different players. It also allows you to submit your score and all data is preserved on the external Leaderboard API service.",
   },
 ];
 
