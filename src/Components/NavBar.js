@@ -22,7 +22,7 @@ const NavBar = (props) => {
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             <a
-              href="https://docs.google.com/document/d/1TOY9uKGxlkVb5bK8gEZmcgrvAm5k2krAh1R-eowCYaU/edit?usp=sharing"
+              href="https://drive.google.com/file/d/1Me0EDJU-OKp3SPNuwEZtU9OGbAC82gwO/view?usp=sharing"
               id={selectors.resume}
             >
               Resume
