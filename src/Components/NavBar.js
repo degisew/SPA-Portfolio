@@ -24,6 +24,7 @@ const NavBar = (props) => {
             <a
               href="https://drive.google.com/file/d/1Me0EDJU-OKp3SPNuwEZtU9OGbAC82gwO/view?usp=sharing"
               id={selectors.resume}
+              target="_blank"
             >
               Resume
             </a>
