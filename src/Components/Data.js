@@ -40,15 +40,15 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    id: 1,
-    title: "Meetup",
-    builtWith: ["React", "CSS3", "Firebase"],
-    github: "https://github.com/degisew/meetup",
-    live: "https://degisew-meetup.netlify.app/",
-    description:
-      "Meetup is a simple website built with react, css, and firebase that allows the user to see all the recent meetups, to add meetups, and select favorite meetup.",
-  },
+  // {
+  //   id: 1,
+  //   title: "E-Commerce Shop App",
+  //   builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe-API"],
+  //   github: "https://github.com/degisew/e-commerce",
+  //   live: "https://degisew-e-commerce.netlify.app/",
+  //   description:
+  //     "A full stack E-Commerce app for your shopping business. It allows a user to buy products, add to cart, remove from cart and also can choose shipping process and make payments.",
+  // },
   {
     id: 2,
     title: "Meal App",
