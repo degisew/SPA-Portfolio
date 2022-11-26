@@ -50,6 +50,15 @@ const projects = [
   //     "A full stack E-Commerce app for your shopping business. It allows a user to buy products, add to cart, remove from cart and also can choose shipping process and make payments.",
   // },
   {
+    id: 1,
+    title: "Space Travelers' Hub",
+    builtWith: ["React", "Redux", "CSS3", "Material-UI", "SpaceX-API"],
+    github: "https://github.com/degisew/Space-travelers-hub",
+    live: "https://degisew-space-travelers-hub.netlify.app/",
+    description:
+      "A website built with React, Redux, MUI, SpaceX API, and CSS. Some of the features are: a user can reserve rockets, can register and join missions, and can see his/her reservation details in his profile section. The user can also cancel the reservation any time.",
+  },
+  {
     id: 2,
     title: "Meal App",
     builtWith: ["HTML5", "CSS3", "JavaScript", "TheMealDBAPI"],
