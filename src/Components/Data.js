@@ -34,7 +34,7 @@ const experiences = [
   {
     id: 2,
     company: "Microverse",
-    role: "Mentor",
+    role: "Front-end Developer",
     duration: "June, 2022 - present",
   },
 ];
