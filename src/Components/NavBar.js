@@ -22,7 +22,7 @@ const NavBar = (props) => {
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             <a
-              href="https://drive.google.com/file/d/1Me0EDJU-OKp3SPNuwEZtU9OGbAC82gwO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Vhfo_7AuEDK6ScO5_l8D2aOQSozd0cXm/view?usp=sharing"
               id={selectors.resume}
               target="_blank"
               rel="noopener noreferrer"
