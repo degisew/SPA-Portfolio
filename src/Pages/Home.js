@@ -1,30 +1,34 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import selectors from "./Home.module.css";
-const Home = (props) => {
-  const closeMenuHandler = (e) => {
-    props.closeMenuHandler(e);
+const Home = ({ closeMenuHandler, menu }) => {
+  const closeMenu = (e) => {
+   closeMenuHandler(e);
   };
   let mobileMenu;
-  if (props.menu) {
+  if (menu) {
     mobileMenu = (
       <div className={selectors.mobileMenu}>
-        <button onClick={closeMenuHandler}>
+        <button onClick={closeMenu}>
           <span>X</span>
         </button>
         <div className={selectors.mobileMenuItems}>
-          <a href="#about" onClick={closeMenuHandler}>
+          <Link to="/about" onClick={closeMenu}>
             About Me
-          </a>
-          <a href="#experience" onClick={closeMenuHandler}>
+          </Link>
+          <Link to="/experience" onClick={closeMenu}>
             {" "}
             Experience
-          </a>
-          <a href="#projects" onClick={closeMenuHandler}>
+          </Link>
+          <Link to="/projects" onClick={closeMenu}>
             Projects
-          </a>
-          <a href="#contact" onClick={closeMenuHandler}>
+          </Link>
+          <Link to="/skills" onClick={closeMenu}>
+            Skills
+          </Link>
+          <Link to="/contact" onClick={closeMenu}>
             Contact
-          </a>
+          </Link>
           <a
             href="https://docs.google.com/document/d/1TOY9uKGxlkVb5bK8gEZmcgrvAm5k2krAh1R-eowCYaU/edit?usp=sharing"
             id={selectors.resume}
