@@ -40,15 +40,15 @@ const experiences = [
 ];
 
 const projects = [
-  // {
-  //   id: 1,
-  //   title: "E-Commerce Shop App",
-  //   builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe-API"],
-  //   github: "https://github.com/degisew/e-commerce",
-  //   live: "https://degisew-e-commerce.netlify.app/",
-  //   description:
-  //     "A full stack E-Commerce app for your shopping business. It allows a user to buy products, add to cart, remove from cart and also can choose shipping process and make payments.",
-  // },
+  {
+    id: 1,
+    title: "E-Commerce Shop App",
+    builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe-API"],
+    github: "https://github.com/degisew/E-commerce",
+    live: "https://degisew-commerce.netlify.app/",
+    description:
+      "A full-stack E-Commerce app for your shopping business. It allows users to buy products, add to the cart, remove from the cart, choose the shipping process, and make payments.",
+  },
   {
     id: 1,
     title: "Space Travelers' Hub",
