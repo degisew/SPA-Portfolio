@@ -1,15 +1,17 @@
-import React from "react";
+/* eslint-disable */
+import React from 'react';
 import { Link } from 'react-router-dom';
-import selectors from "./Home.module.css";
+import selectors from './Home.module.css';
+
 const Home = ({ closeMenuHandler, menu }) => {
   const closeMenu = (e) => {
-   closeMenuHandler(e);
+    closeMenuHandler(e);
   };
   let mobileMenu;
   if (menu) {
     mobileMenu = (
       <div className={selectors.mobileMenu}>
-        <button onClick={closeMenu}>
+        <button type="button" onClick={closeMenu}>
           <span>X</span>
         </button>
         <div className={selectors.mobileMenuItems}>
@@ -17,7 +19,7 @@ const Home = ({ closeMenuHandler, menu }) => {
             About Me
           </Link>
           <Link to="/experience" onClick={closeMenu}>
-            {" "}
+            {' '}
             Experience
           </Link>
           <Link to="/projects" onClick={closeMenu}>
@@ -44,7 +46,7 @@ const Home = ({ closeMenuHandler, menu }) => {
       {mobileMenu}
       <div className={selectors.mainDiv}>
         <div className={selectors.hi}>
-          <p>Hi, I'm</p>
+          <p>Hi, I&apos;m</p>
         </div>
         <div className={selectors.nameJobDiv}>
           <div className={selectors.name}>Degisew Mengist</div>

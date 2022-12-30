@@ -1,48 +1,48 @@
 
 .experience {
-    background-color: #112340;
-        color: rgb(203, 205, 208);
-        border-radius: 8px;
-        padding: 10px;
-        text-align: center;
-        margin: 10px;
-}
-.experience h3 {
-    color: #2dd4bf;
+  background-color: #112340;
+  color: rgb(203, 205, 208);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
 }
 
-@media(min-width:568px) {
-.experiencesDiv {
+.experience h3 {
+  color: #2dd4bf;
+}
+
+@media (min-width: 568px) {
+  .experiencesDiv {
     display: grid;
     grid-template-columns: auto auto;
     width: 90%;
     margin: 10px 10px;
-}
+  }
 
-.experience {
+  .experience {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 240px;
-   min-height: 200px ;
+    min-height: 200px;
+  }
+}
 
-}
-}
-@media(min-width:768px) {
-.experiencesDiv {
+@media (min-width: 768px) {
+  .experiencesDiv {
     display: flex;
     width: 90%;
     margin: 20px auto;
-}
+  }
 
-.experience {
+  .experience {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-width: 320px;
-   min-height: 200px ;
-
-}
+    min-height: 200px;
+  }
 }

@@ -1,14 +1,14 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 70px;
-  padding: 10px;
-}
 
 .logoContainer {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
   font-style: italic;
   color: #2dd4bf;
 }
@@ -16,6 +16,14 @@
 .logoContainer a {
   text-decoration-line: none;
   color: #2dd4bf;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  padding: 10px;
 }
 
 #navBar {
@@ -61,35 +69,38 @@
     border-radius: 5px;
     outline: #2dd4bf solid 3px;
   }
+
   .menuBtnDiv {
     display: none;
   }
 }
+
 /* Laptops Break Point */
 @media (min-width: 1024px) {
-  #navBar a {
-    color: #fff;
-    font-size: 18px;
-    text-decoration-line: none;
-  }
-
   .logoContainer a {
     text-decoration-line: none;
     color: #2dd4bf;
     font-size: 20px;
   }
-}
-/* Normal Desktop break point */
-@media (min-width: 1300px) {
+
   #navBar a {
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration-line: none;
   }
+}
 
+/* Normal Desktop break point */
+@media (min-width: 1300px) {
   .logoContainer a {
     text-decoration-line: none;
     color: #2dd4bf;
     font-size: 24px;
+  }
+
+  #navBar a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration-line: none;
   }
 }

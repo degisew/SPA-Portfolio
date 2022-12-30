@@ -64,8 +64,15 @@
 .hi {
   font-size: 20px;
   color: #2dd4bf;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
 }
 
 .nameJobDiv {
@@ -84,10 +91,18 @@
 
 .description {
   font-size: 13px;
+
   /* text-align: justify; */
   color: rgb(162, 162, 174);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    Liberation Mono, Courier New, monospace;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
 }
 
 @media (min-width: 568px) {
@@ -99,6 +114,7 @@
   .name {
     font-size: 38px;
   }
+
   .job {
     font-size: 30px;
     color: rgb(162, 162, 174);
@@ -108,12 +124,14 @@
     font-size: 16px;
   }
 }
+
 /* Tablet Breakpoint */
 @media (min-width: 768px) {
   .mainDiv {
     width: 70%;
     margin: 3rem auto;
   }
+
   .name {
     font-size: 50px;
   }
@@ -122,19 +140,21 @@
     display: none;
   }
 
-.mobileMenu {
-  display: none;
-}
+  .mobileMenu {
+    display: none;
+  }
 
   .job {
     font-size: 48px;
     color: rgb(162, 162, 174);
   }
+
   .description {
     font-size: 17px;
     width: 80%;
   }
 }
+
 @media (min-width: 1024px) {
   .mainDiv {
     width: 70%;
@@ -144,8 +164,15 @@
   .hi {
     font-size: 24px;
     color: #2dd4bf;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-      Liberation Mono, Courier New, monospace;
+    font-family:
+      ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      Liberation Mono,
+      Courier New,
+      monospace;
   }
 
   .name {
@@ -160,20 +187,24 @@
     font-size: 55px;
     color: rgb(162, 162, 174);
   }
+
   .description {
     font-size: 18px;
     width: 80%;
   }
 }
+
 /* Normal Desktop break point */
 @media (min-width: 1300px) {
   #home {
     min-height: 500px;
   }
+
   .mainDiv {
     width: 70%;
     margin: 3rem auto;
   }
+
   .name {
     font-size: 72px;
   }
@@ -181,8 +212,15 @@
   .hi {
     font-size: 28px;
     color: #2dd4bf;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-      Liberation Mono, Courier New, monospace;
+    font-family:
+      ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      Liberation Mono,
+      Courier New,
+      monospace;
   }
 
   .popup {
@@ -193,6 +231,7 @@
     font-size: 64px;
     color: rgb(162, 162, 174);
   }
+
   .description {
     font-size: 20px;
     width: 80%;

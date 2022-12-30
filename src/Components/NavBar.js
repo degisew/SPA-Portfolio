@@ -1,7 +1,9 @@
+/* eslint-disable */
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { SlMenu } from "react-icons/sl";
-import selectors from "./NavBar.module.css";
+import { SlMenu } from 'react-icons/sl';
+import selectors from './NavBar.module.css';
+
 const NavBar = ({ openMenuHandler }) => {
   const openMenu = (e) => {
     openMenuHandler(e);
@@ -33,7 +35,7 @@ const NavBar = ({ openMenuHandler }) => {
           </nav>
         </div>
         <div className={selectors.menuBtnDiv}>
-          <button className={selectors.MenuBtn} onClick={openMenu}>
+          <button type="button" className={selectors.MenuBtn} onClick={openMenu}>
             <SlMenu />
           </button>
         </div>
@@ -42,4 +44,4 @@ const NavBar = ({ openMenuHandler }) => {
   );
 };
 
-export default NavBar
+export default NavBar;

@@ -90,14 +90,14 @@
 }
 
 /* Laptops break Point */
-@media(min-width: 1024px) {
+@media (min-width: 1024px) {
   .skills {
     font-size: 18px;
   }
 }
 
 /* Normal Desktop breakPoint */
-@media(min-width: 1300px) {
+@media (min-width: 1300px) {
   .mainContainer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -115,8 +115,6 @@
   .subTitleSkillContDiv {
     display: flex;
     flex-direction: column;
-
-   
     margin-top: 10px;
     padding-top: 10px;
     border: 3px solid #112340;

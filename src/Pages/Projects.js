@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import sharedSelectors from "./SharedStyles.module.css";
-import selectors from "./Projects.module.css";
-import { projects } from "../data";
-// import { GrNext, GrPrevious } from "react-icons/gr";
+/* eslint-disable */
+import React, { useState } from 'react';
 import {
   NavigateBeforeRounded,
   NavigateNextRounded,
-} from "@mui/icons-material";
-import { FaGithub } from "react-icons/fa";
-import { BiLink } from "react-icons/bi";
-import { CardContent } from "@mui/material";
-import { Container } from "@mui/system";
+} from '@mui/icons-material';
+import { FaGithub } from 'react-icons/fa';
+import { BiLink } from 'react-icons/bi';
+import { CardContent, Container } from '@mui/material';
+import { projects } from '../data';
+import selectors from './Projects.module.css';
+import sharedSelectors from './SharedStyles.module.css';
 import styles from './styles';
 
 const Projects = () => {
@@ -18,12 +17,11 @@ const Projects = () => {
 
   const prevStep = () => {
     projectIndex !== 0 && setProjectIndex(projectIndex - 1);
-  }
+  };
 
   const nextStep = () => {
     projectIndex !== projects.length - 1 && setProjectIndex(projectIndex + 1);
-  }
-
+  };
 
   // console.log(typeof );
   return (
@@ -36,8 +34,8 @@ const Projects = () => {
           <div className={selectors.desktopNavigator}>
             <NavigateBeforeRounded
               style={{
-                fontSize: "80px",
-                zIndex: "1",
+                fontSize: '80px',
+                zIndex: '1',
               }}
               onClick={prevStep}
             />
@@ -54,13 +52,11 @@ const Projects = () => {
               </div>
               <CardContent>{projects[projectIndex].description}</CardContent>
               <div className={selectors.builtWith}>
-                {projects[projectIndex].builtWith.map((tech) => {
-                  return (
-                    <div className={selectors.tech} key={tech}>
-                      {tech}
-                    </div>
-                  );
-                })}
+                {projects[projectIndex].builtWith.map((tech) => (
+                  <div className={selectors.tech} key={tech}>
+                    {tech}
+                  </div>
+                ))}
               </div>
               <div className={selectors.icons}>
                 {/* <div className={selectors.folderIcon}>
@@ -94,8 +90,8 @@ const Projects = () => {
           <div className={selectors.desktopNavigator}>
             <NavigateNextRounded
               style={{
-                fontSize: "80px",
-                zIndex: "1",
+                fontSize: '80px',
+                zIndex: '1',
               }}
               onClick={nextStep}
             />
@@ -104,15 +100,15 @@ const Projects = () => {
         <div className={selectors.mobileNavigator}>
           <NavigateBeforeRounded
             style={{
-              fontSize: "80px",
-              zIndex: "1",
+              fontSize: '80px',
+              zIndex: '1',
             }}
             onClick={prevStep}
           />
           <NavigateNextRounded
             style={{
-              fontSize: "80px",
-              zIndex: "1",
+              fontSize: '80px',
+              zIndex: '1',
             }}
             onClick={nextStep}
           />
@@ -123,6 +119,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
