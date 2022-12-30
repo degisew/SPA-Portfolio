@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import sharedSelectors from "./SharedStyles.module.css";
 import selectors from "./ContactMe.module.css";
-import { contact } from '../Components/Data';
+import { contact } from "../data";
 import {
   AiFillTwitterCircle,
   AiFillGithub,
@@ -25,9 +25,9 @@ const ContactMe = () => {
             <address className={selectors.email}>{contact.email}</address>
           </div>
           <div className={selectors.contactIcons}>
-              <a href="https://www.linkedin.com/in/degisew-mengist">
-                <AiFillLinkedin className={selectors.linkedin} />
-              </a>
+            <a href="https://www.linkedin.com/in/degisew-mengist">
+              <AiFillLinkedin className={selectors.linkedin} />
+            </a>
             <a href="https://www.github.com/degisew">
               <AiFillGithub className={selectors.github} />
             </a>
@@ -42,6 +42,6 @@ const ContactMe = () => {
       </div>
     </section>
   );
-}
+};
 
-export default ContactMe
+export default ContactMe;

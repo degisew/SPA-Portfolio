@@ -43,7 +43,8 @@ const projects = [
   {
     id: 1,
     title: "E-Commerce Shop App",
-    builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe-API"],
+    url: "screenshoots/commerce.png",
+    builtWith: ["React", "CSS3", "Material-UI", "Commercejs-API", "Stripe"],
     github: "https://github.com/degisew/E-commerce",
     live: "https://degisew-commerce.netlify.app/",
     description:
@@ -52,6 +53,7 @@ const projects = [
   {
     id: 2,
     title: "Space Travelers' Hub",
+    url: "screenshoots/space.png",
     builtWith: ["React", "Redux", "CSS3", "Material-UI", "SpaceX-API"],
     github: "https://github.com/degisew/Space-travelers-hub",
     live: "https://degisew-space-travelers-hub.netlify.app/",
@@ -61,6 +63,7 @@ const projects = [
   {
     id: 3,
     title: "Meal App",
+    url: "screenshoots/meal.png",
     builtWith: ["HTML5", "CSS3", "JavaScript", "TheMealDBAPI"],
     github: "https://github.com/degisew/TheMealDB-API",
     live: "https://degisew.github.io/TheMealDB-API/dist/",
@@ -70,6 +73,7 @@ const projects = [
   {
     id: 4,
     title: "Math Magicians",
+    url: "screenshoots/calculator.png",
     builtWith: ["React", "SCSS"],
     github: "https://github.com/degisew/Math-Magicians-React-App",
     live: "https://degisew-calculator-app.netlify.app/",
@@ -78,16 +82,18 @@ const projects = [
   },
   {
     id: 5,
-    title: "LeaderBoard API",
-    builtWith: ["HTML5", "SCSS", "JavaScript", "Leaderboard API"],
-    github: "https://github.com/degisew/Leaderboard-API",
-    live: "https://degisew.github.io/Leaderboard-API/dist/",
+    title: "Crypto Real-time Pricing",
+    url: "screenshoots/crypto.png",
+    builtWith: ["React", "Redux", "CSS", "CoinCapAPI"],
+    github: "https://github.com/degisew/crypto-real-time-pricing",
+    live: "https://degisew-crypto.netlify.app/",
     description:
-      "This is a website built with HTML5, SCSS, modern JavaScript and WebPack bundler that displays scores submitted by different players. It also allows you to submit your score and all data is preserved on the external Leaderboard API service.",
+      "A website used for real-time pricing and market activity for over 1,000 cryptocurrencies. It fetchs Data from CoinCap API 2.0 and offer transparent and accurate data on asset price and availability.",
   },
   {
     id: 6,
     title: "Awesome Books",
+    url: "screenshoots/awesome.png",
     builtWith: ["HTML5", "JavaScript", "CSS3"],
     github: "https://github.com/degisew/awesome-books",
     live: "https://degisew.github.io/awesome-books/",
@@ -95,8 +101,6 @@ const projects = [
       "A website developed with html, CSS and JavaScript that adds and removes awesome books dynamically. one of the best feature is that, all the data are stored in a browser local storage.",
   },
 ];
-
-const testimonals = [];
 
 const contact = {
   address: "Bahir Dar, Ethiopia",
@@ -111,6 +115,5 @@ export {
   professional,
   experiences,
   projects,
-  testimonals,
   contact,
 };

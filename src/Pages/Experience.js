@@ -1,7 +1,7 @@
 import React from "react";
 import sharedSelectors from "./SharedStyles.module.css";
 import selectors from "./Experience.module.css";
-import { experiences } from "../Components/Data";
+import { experiences } from "../data";
 const Experience = () => {
   return (
     <section id="experience">
