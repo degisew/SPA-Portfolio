@@ -25,16 +25,32 @@ const ContactMe = () => (
           <address className={selectors.email}>{contact.email}</address>
         </div>
         <div className={selectors.contactIcons}>
-          <a href="https://www.linkedin.com/in/degisew-mengist">
+          <a
+            href="https://www.linkedin.com/in/degisew-mengist"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillLinkedin className={selectors.linkedin} />
           </a>
-          <a href="https://www.github.com/degisew">
+          <a
+            href="https://www.github.com/degisew"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillGithub className={selectors.github} />
           </a>
-          <a href="https://www.twitter.com/@DJ_etiya">
+          <a
+            href="https://www.twitter.com/@DJ_etiya"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <AiFillTwitterCircle className={selectors.twitter} />
           </a>
-          <a href="mailto:degisew.mengist21@gmail.com">
+          <a
+            href="mailto:degisew.mengist21@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <ImMail4 className={selectors.gmail} />
           </a>
         </div>

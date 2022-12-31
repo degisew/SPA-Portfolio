@@ -27,12 +27,13 @@ function App() {
   }, [showMenu]);
   return (
     <main>
-      <NavBar openMenuHandler={openMenuHandler} />
+      <NavBar
+        openMenuHandler={openMenuHandler}
+        menu={showMenu}
+        closeMenuHandler={closeMenuHandler}
+      />
       <Routes>
-        <Route
-          element={<Home menu={showMenu} closeMenuHandler={closeMenuHandler} />}
-          path="/"
-        />
+        <Route element={<Home />} path="/" />
         <Route element={<AboutMe />} path="/about" />
         <Route element={<Experience />} path="/experience" />
         <Route element={<Skills />} path="/skills" />
