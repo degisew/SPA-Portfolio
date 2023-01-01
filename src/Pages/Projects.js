@@ -14,16 +14,28 @@ import styles from './styles';
 
 const Projects = () => {
   const [projectIndex, setProjectIndex] = useState(0);
+  const [animate, setAnimate] = useState(false);
 
   const prevStep = () => {
-    projectIndex !== 0 && setProjectIndex(projectIndex - 1);
+    setAnimate(true);
+     setProjectIndex(projectIndex - 1);
+    setTimeout(() => setAnimate(false), 500);
   };
 
   const nextStep = () => {
-    projectIndex !== projects.length - 1 && setProjectIndex(projectIndex + 1);
+     setProjectIndex(projectIndex + 1);
+    setAnimate(true);
+     setTimeout(() => setAnimate(false), 500);
   };
 
-  // console.log(typeof );
+  const prevAnimator = () => {
+    projectIndex !== 0 && prevStep();
+  };
+
+  const nextAnimator = () => {
+    projectIndex !== projects.length - 1 && nextStep();
+  };
+
   return (
     <section id="projects">
       <div>
@@ -34,13 +46,16 @@ const Projects = () => {
           <div className={selectors.desktopNavigator}>
             <NavigateBeforeRounded
               style={{
-                fontSize: '80px',
-                zIndex: '1',
+                fontSize: "80px",
+                zIndex: "1",
               }}
-              onClick={prevStep}
+              onClick={prevAnimator}
             />
           </div>
-          <div className={selectors.imgDiv}>
+          <div
+            className={selectors.imgDiv}
+            id={animate ? selectors.animateDiv : null}
+          >
             <img
               className={styles.cardMedia}
               src={projects[projectIndex].url}
@@ -59,9 +74,6 @@ const Projects = () => {
                 ))}
               </div>
               <div className={selectors.icons}>
-                {/* <div className={selectors.folderIcon}>
-                    <FiFolder />
-                  </div> */}
                 <div className={selectors.linkSeeDiv}>
                   <div>
                     <a
@@ -90,27 +102,27 @@ const Projects = () => {
           <div className={selectors.desktopNavigator}>
             <NavigateNextRounded
               style={{
-                fontSize: '80px',
-                zIndex: '1',
+                fontSize: "80px",
+                zIndex: "1",
               }}
-              onClick={nextStep}
+              onClick={nextAnimator}
             />
           </div>
         </Container>
         <div className={selectors.mobileNavigator}>
           <NavigateBeforeRounded
             style={{
-              fontSize: '80px',
-              zIndex: '1',
+              fontSize: "80px",
+              zIndex: "1",
             }}
-            onClick={prevStep}
+            onClick={prevAnimator}
           />
           <NavigateNextRounded
             style={{
-              fontSize: '80px',
-              zIndex: '1',
+              fontSize: "80px",
+              zIndex: "1",
             }}
-            onClick={nextStep}
+            onClick={nextAnimator}
           />
         </div>
       </div>
