@@ -136,6 +136,7 @@
 @media (min-width: 1060px) {
   .imgDiv {
     display: flex;
+    height: auto;
     background-color: inherit;
   }
 
@@ -169,6 +170,7 @@
 @media (min-width: 1300px) {
   .imgDiv {
     display: flex;
+    height: auto;
     background-color: inherit;
   }
 
