@@ -1,0 +1,158 @@
+
+.logoContainer {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
+  font-style: italic;
+  color: #2dd4bf;
+}
+
+.logoContainer a {
+  text-decoration-line: none;
+  color: #2dd4bf;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  padding: 10px;
+}
+
+#navBar {
+  display: none;
+}
+
+.menuBtnDiv {
+  border: 1px #2dd4bf solid;
+  text-align: center;
+  border-radius: 6px;
+  min-width: 40px;
+  cursor: pointer;
+}
+
+.MenuBtn {
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.MenuBtn svg {
+  fill: #2dd4bf;
+  min-width: 30px;
+}
+
+.mobileMenu {
+  overflow-x: hidden;
+  position: fixed;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+  background-color: #112340;
+  float: right;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  row-gap: 20px;
+}
+
+.mobileMenu button {
+  display: flex;
+  background-color: inherit;
+  color: white;
+  border: none;
+  font-size: 23px;
+  width: fit-content;
+  cursor: pointer;
+  float: left;
+}
+
+.mobileMenu button span {
+  color: #2dd4bf;
+}
+
+.mobileMenuItems {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  cursor: pointer;
+}
+
+.mobileMenuItems a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration-line: none;
+}
+
+#resume {
+  width: fit-content;
+  padding: 5px 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  outline: #2dd4bf solid 3px;
+}
+
+@media (min-width: 768px) {
+  #navBar {
+    display: flex;
+    align-self: flex-end;
+    column-gap: 25px;
+  }
+
+  #navBar a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration-line: none;
+  }
+
+  #resume {
+    padding: 5px 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    outline: #2dd4bf solid 3px;
+  }
+
+  .menuBtnDiv {
+    display: none;
+  }
+}
+
+/* Laptops Break Point */
+@media (min-width: 1024px) {
+  .logoContainer a {
+    text-decoration-line: none;
+    color: #2dd4bf;
+    font-size: 20px;
+  }
+
+  #navBar a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration-line: none;
+  }
+}
+
+/* Normal Desktop break point */
+@media (min-width: 1300px) {
+  .logoContainer a {
+    text-decoration-line: none;
+    color: #2dd4bf;
+    font-size: 24px;
+  }
+
+  #navBar a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration-line: none;
+  }
+}

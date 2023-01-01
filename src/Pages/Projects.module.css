@@ -1,0 +1,166 @@
+.mainContainer {
+  color: rgb(203, 205, 208);
+}
+
+.project {
+  background-color: #112340;
+  margin: 10px;
+  padding: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.folderIcon {
+  color: #2dd4bf;
+}
+
+.linkSeeDiv {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 20px auto;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.linkSeeDiv a {
+  padding: 10px;
+  text-decoration-line: none;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #2dd4bf;
+  border-radius: 8px;
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: justify;
+  font-size: 14px;
+  padding: 0 20px;
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    Apple Color Emoji,
+    Segoe UI Emoji,
+    Segoe UI Symbol,
+    Noto Color Emoji;
+}
+
+.builtWith {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding-top: 20px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+.tech {
+  color: rgb(203, 205, 208);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #112340;
+  border: 1px solid #2dd4bf;
+  border-radius: 8px;
+  padding: 10px;
+  min-height: 20px;
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+
+#animateDiv {
+  transition: all 0.3s ease;
+  -webkit-transform: translateX(-20px);
+  transform: translateX(-20px);
+  opacity: 0;
+}
+
+@media (min-width: 375px) {
+  .imgDiv {
+    display: block;
+    background-color: inherit;
+  }
+
+  .imgDiv img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  .builtWith {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+
+  .mobileNavigator {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktopNavigator {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .builtWith {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-top: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1060px) {
+  .imgDiv {
+    display: flex;
+    min-height: 400px;
+    background-color: inherit;
+
+    /* border: 5px solid #2dd4bf; */
+  }
+
+  .imgDiv img {
+    width: 50%;
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+  }
+
+  .mobileNavigator {
+    display: none;
+  }
+
+  .desktopNavigator {
+    display: flex;
+  }
+}
